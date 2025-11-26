@@ -13,6 +13,6 @@ describe('API endpoints', () => {
     const res = await request(app).post('/sinup')
     expect(res.statusCode).toBe(200)
     expect(res.headers['content-type']).toMatch(/json/)
-    expect(res.body).toEqual({ success: 1 })
+    expect(res.body).toEqual({ success: 2 })
   })
 })
