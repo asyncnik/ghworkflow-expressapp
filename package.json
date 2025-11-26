@@ -1,0 +1,25 @@
+{
+  "name": "ghworkflow-expressapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyncnik/ghworkflow-expressapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asyncnik/ghworkflow-expressapp/issues"
+  },
+  "homepage": "https://github.com/asyncnik/ghworkflow-expressapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "epxress": "^0.0.1-security",
+    "express": "^5.1.0"
+  }
+}
